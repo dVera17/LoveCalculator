@@ -12,5 +12,6 @@ Características
 - Estilo atractivo y agradable utilizando CSS para una presentación visual atractiva.
 
 Información adicional
+
 LoveCalculator es una aplicación lúdica y no pretende ser científica ni precisa en la determinación del amor entre dos personas. Los resultados son generados aleatoriamente y solo deben ser considerados como una diversión o entretenimiento.
 
