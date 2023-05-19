@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love calculator</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div class="background">
+        <img src="imgs/mainBackground.jpg" alt="">
+    </div>
+
+    <main class="main-container">
+        <div class="content">
+            <form class="formLove" id="loveForm">
+                <div class="container-names">
+                    <input class="input-text" id="inpFirst" type="text" name="first" placeholder="Enter the first name" required>
+                    <input class="input-text" id="inpSecond" type="text" name="second" placeholder="Enter the second name" required>
+                </div>
+                <input class="btnCalcular" type="submit" value="Calcular">
+            </form>
+        </div>
+    </main>
+
+    <div id="modalResults" class="modal" style="display: none;">
+        <div class="content-modal">
+            <div class="names-container">
+                <p id="firstName"></p>
+                <p>y</p>
+                <p id="secondName"></p>
+            </div>      
+            <h1 id="porcentaje">%%</h1>      
+            <p id="frase">Fraseee</p>
+        </div>
+    </div>
+
+    <div class="loading none" id="loader">
+        <svg width="64px" height="48px">
+            <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
+          <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
+        </svg>
+    </div>
+
+</body>
+</html>
